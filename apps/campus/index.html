@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>校招雷达</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./enhancements.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div><span class="eyebrow">2027 CAMPUS RADAR</span><h1>校招投递中心</h1><p>把机会、进度和下一步放在同一个地方。</p></div>
+    <button id="addBtn" class="primary">＋ 添加机会</button>
+  </header>
+  <main>
+    <section id="stats" class="stats"></section>
+    <section class="toolbar">
+      <input id="search" placeholder="搜索公司、岗位或地点" />
+      <details id="statusFilter" class="check-filter"><summary>全部状态</summary><div class="check-panel"><input id="statusSearch" placeholder="搜索状态" /><label class="check-all"><input type="checkbox" id="statusAll" checked /><span>全选</span></label><div id="statusChoices"></div><div class="check-actions"><button type="button" id="statusConfirm" class="primary">确定</button><button type="button" id="statusCancel" class="ghost">取消</button></div></div></details>
+      <select id="categoryFilter"><option value="">全部类别</option></select>
+      <select id="priorityFilter"><option value="">全部优先级</option><option>P0</option><option>P1</option><option>P2</option><option>-</option></select>
+      <select id="sortMode"><option value="manual">我的顺序</option><option value="priority">按优先级</option><option value="status">按进度</option><option value="deadline">按截止日期</option><option value="company">按公司名称</option></select>
+      <button id="clearFilters" class="ghost">清除筛选</button>
+    </section>
+    <section class="table-card">
+      <div class="table-head"><div><h2>全部机会</h2><span id="resultCount"></span></div><div class="legend"><span class="dot applied"></span>已投 <span class="dot todo"></span>待处理 <span class="dot blocked"></span>受阻</div></div>
+      <div class="table-wrap"><table><thead><tr><th class="drag-col"></th><th>优先级</th><th>公司 / 方向</th><th>地点</th><th>状态</th><th>投递次数</th><th>登录方式</th><th>我的备注</th><th>AI 情况备注</th><th>截止</th><th>入口</th><th></th></tr></thead><tbody id="jobsBody"></tbody></table></div>
+      <div id="empty" class="empty" hidden>没有符合当前筛选条件的机会。</div>
+    </section>
+  </main>
+
+  <dialog id="editor"><form id="jobForm" method="dialog"><div class="dialog-title"><div><span class="eyebrow">OPPORTUNITY</span><h2 id="dialogHeading">添加机会</h2></div><button type="button" id="closeDialog" class="icon">×</button></div>
+    <input type="hidden" name="id" />
+    <div class="form-grid">
+      <label>公司<input required name="company" /></label><label>岗位方向<input name="role" /></label>
+      <label>地点<input name="location" /></label><label>类别<select name="category"><option>现有记录</option><option>高成长公司</option><option>投行/投资</option><option>其他</option></select></label>
+      <label>优先级<select name="priority"><option>P0</option><option selected>P1</option><option>P2</option><option>-</option></select></label><label>状态<select name="status"></select></label>
+      <label>已投次数<input name="appliedCount" type="number" min="0" value="0" /></label><label>预计总机会<input name="totalChances" type="number" min="0" placeholder="不清楚可留空" /></label>
+      <label class="wide">下一步<input name="nextAction" /></label><label>截止日期<input name="deadline" type="date" /></label>
+      <label>登录方式<input name="loginMethod" list="loginMethodChoices" placeholder="可选择或自行输入" /><datalist id="loginMethodChoices"><option value="待确定"></option><option value="手机"></option><option value="手机/短信"></option><option value="微信"></option><option value="微信扫码"></option><option value="邮箱"></option><option value="邮箱账号"></option><option value="官网账号"></option><option value="第三方平台"></option><option value="线下/其他"></option></datalist></label><label class="wide">投递链接<input name="url" type="url" /></label>
+      <label class="wide">我的备注<textarea name="userNotes" rows="3" placeholder="这里填写你自己的记录"></textarea></label><label class="wide">AI / 系统资料备注<textarea name="notes" rows="3"></textarea></label>
+    </div>
+    <div class="dialog-actions"><button type="button" id="deleteBtn" class="danger" hidden>删除</button><span></span><button type="button" id="cancelBtn" class="ghost">取消</button><button class="primary" value="save">保存</button></div>
+  </form></dialog>
+  <script type="module" src="./app.js"></script>
+</body></html>
