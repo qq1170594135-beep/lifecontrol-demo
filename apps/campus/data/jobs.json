@@ -15,7 +15,7 @@
     "url": "",
     "notes": "公开展示使用的脱敏示例记录",
     "order": 12,
-    "updatedAt": "2026-08-11T13:03:53.625Z",
+    "updatedAt": "2026-08-14T15:18:46.586Z",
     "userNotes": "已完成岗位匹配分析",
     "source": ""
   },
@@ -35,7 +35,7 @@
     "url": "",
     "notes": "公开展示使用的脱敏示例记录",
     "order": 10,
-    "updatedAt": "2026-08-11T13:03:53.625Z",
+    "updatedAt": "2026-08-14T15:18:46.587Z",
     "userNotes": "",
     "source": ""
   },
@@ -55,7 +55,7 @@
     "url": "",
     "notes": "公开展示使用的脱敏示例记录",
     "order": 11,
-    "updatedAt": "2026-08-11T13:03:53.625Z",
+    "updatedAt": "2026-08-14T15:18:46.587Z",
     "userNotes": "",
     "source": ""
   },
@@ -77,7 +77,7 @@
     "order": 13,
     "userNotes": "已完成岗位匹配分析",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-5",
@@ -97,7 +97,7 @@
     "order": 14,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-6",
@@ -106,7 +106,7 @@
     "role": "项目管理培训生",
     "location": "上海",
     "priority": "P1",
-    "status": "待确认",
+    "status": "已投",
     "appliedCount": 0,
     "totalChances": null,
     "nextAction": "确认账号申请记录",
@@ -115,9 +115,9 @@
     "url": "",
     "notes": "公开展示使用的脱敏示例记录",
     "order": 15,
+    "updatedAt": "2026-08-14T15:18:46.587Z",
     "userNotes": "",
-    "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "source": ""
   },
   {
     "id": "demo-7",
@@ -137,7 +137,7 @@
     "order": 16,
     "userNotes": "已完成岗位匹配分析",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-8",
@@ -157,7 +157,7 @@
     "order": 17,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-9",
@@ -177,7 +177,7 @@
     "order": 18,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-10",
@@ -194,7 +194,7 @@
     "loginMethod": "演示账号",
     "url": "",
     "notes": "公开展示使用的脱敏示例记录",
-    "updatedAt": "2026-08-11T13:03:53.625Z",
+    "updatedAt": "2026-08-14T15:18:46.587Z",
     "order": 19,
     "userNotes": "已完成岗位匹配分析",
     "source": ""
@@ -217,7 +217,7 @@
     "order": 20,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-12",
@@ -237,7 +237,7 @@
     "order": 21,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-13",
@@ -257,7 +257,7 @@
     "order": 22,
     "userNotes": "已完成岗位匹配分析",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-14",
@@ -277,7 +277,7 @@
     "order": 23,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-15",
@@ -297,7 +297,7 @@
     "order": 24,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-16",
@@ -317,7 +317,7 @@
     "order": 25,
     "userNotes": "已完成岗位匹配分析",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-17",
@@ -337,7 +337,7 @@
     "order": 26,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   },
   {
     "id": "demo-18",
@@ -357,6 +357,6 @@
     "order": 27,
     "userNotes": "",
     "source": "",
-    "updatedAt": "2026-08-11T13:03:53.625Z"
+    "updatedAt": "2026-08-14T15:18:46.587Z"
   }
 ]
